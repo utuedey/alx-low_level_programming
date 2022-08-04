@@ -22,4 +22,5 @@ else
 printf("%s%d", separator, va_arg(list, int));
 }
 va_end(list);
+printf("\n");
 }
