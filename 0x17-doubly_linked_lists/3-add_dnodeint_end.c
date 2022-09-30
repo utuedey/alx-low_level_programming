@@ -26,7 +26,7 @@ new->prev = NULL;
 return (new);
 }
 while (temp->next)
-temp = temp->next
+temp = temp->next;
 temp->next = new;
 new->prev = temp;
 return (new);
